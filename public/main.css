@@ -1,0 +1,47 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #FFEFD5;
+}
+
+.spinner{
+  font-size: 20px;
+  text-align: center;
+}
+
+body{
+  position: relative;
+}
+
+.popup-container{
+  position: fixed;
+  top: 10%;
+  left: 35%;
+  border: 1px solid #ddd;
+  width: 25%;
+  height: 20vh;
+  background-color:#FFEFD5;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  gap: 10px;
+}
+
+.hidden{
+  display: none;
+}
+
+.popup-btn{
+  height: 20%;
+  align-self: flex-end;
+}
+
